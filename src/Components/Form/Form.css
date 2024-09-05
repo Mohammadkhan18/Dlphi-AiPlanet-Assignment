@@ -1,0 +1,450 @@
+.form__route {
+  background: #f5f5f5;
+  width: 100%;
+  height: fit-content;
+  padding-top: 50px;
+}
+
+.form__container {
+  width: 913px;
+  height: 1105px;
+  margin-left: 142px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 48px;
+
+  background: #ffffff;
+  border-radius: 24px;
+}
+
+.form__heading {
+  width: 408px;
+  height: 44px;
+
+  font-weight: 500;
+  font-size: 29px;
+  line-height: 44px;
+
+  color: #333333;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.form__label {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+
+  color: #222222;
+  margin-top: 40px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.form__container input[type="text"],
+.input__description {
+  padding: 16px;
+
+  font-size: 16px;
+  width: 706px;
+  height: 51px;
+  margin-top: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+}
+
+.form__container input::placeholder,
+.input__description {
+  font-family: "Inter";
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #858585;
+}
+
+.input__description {
+  height: 153px !important;
+  width: 706px !important;
+}
+
+.input__description--count {
+  width: 706px;
+  height: 17px;
+
+  font-family: "Inter";
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  text-align: right;
+
+  color: #858585;
+}
+
+.btn__container {
+  width: 817px;
+  border-top: 1px solid #e6e6e6;
+}
+
+.form__button {
+  width: 194px;
+  height: 52px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  padding: 12px 18px;
+  background: #44924c;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  border: none;
+  margin-top: 32px;
+  cursor: pointer;
+}
+
+.input__img--size {
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #858585;
+}
+
+.form__img--upload {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  width: 706px;
+  height: 82px;
+  background: #f5f5f5;
+  border: 2px dashed #cccccc;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.upload {
+  justify-content: center;
+}
+
+#imageUpload {
+  display: none;
+}
+
+.form__img {
+  /* background: #cccccc; */
+  opacity: 0.2;
+  width: 150px;
+  height: 150px;
+}
+
+.dates__container {
+  display: flex;
+
+  /* margin-top: 16px; */
+  margin-bottom: 40px;
+}
+
+.form__date {
+
+  padding: 0px;
+
+  width: 337px;
+  height: 93px;
+
+}
+
+.input__date {
+  padding: 16px;
+  gap: 16px;
+
+  width: 337px;
+  height: 51px;
+  font-family: "Inter";
+
+  font-weight: 400;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.form-level {
+  padding: 0 10px;
+  color: #333333;
+  width: 236px;
+  height: 39px;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.uploaded {
+  padding: 8px, 16px;
+  gap: 16px;
+}
+.form__uploaded--img {
+  width: 48px;
+  height: 48px;
+  border-radius: 4px;
+  margin-left: 16px;
+}
+.file-name {
+  width: 462px;
+  font-size: 16px;
+  color: #333333;
+}
+.re-upload__container {
+  padding: 6px 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #858585;
+}
+.re-upload {
+  width: 24px;
+  height: 24px;
+  fill: #858585;
+}
+
+@media (max-width: 1024px) {
+  .form__container {
+    width: 90%;
+    margin-left: 5%;
+    padding: 20px;
+  }
+
+  .form__heading {
+    width: auto;
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .form__label {
+    font-size: 15px;
+    margin-top: 30px;
+  }
+
+  .form__container input[type="text"],
+  .input__description {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .input__description {
+    height: auto;
+  }
+
+  .input__description--count {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .btn__container {
+    width: 100%;
+  }
+
+  .form__button {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  .form__img--upload {
+    width: 100%;
+    height: auto;
+  }
+
+  .dates__container {
+    flex-direction: column;
+  }
+
+  .form__date,
+  .input__date {
+    width: 100%;
+  }
+
+  .form-level {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .file-name {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .form__container {
+    width: 100%;
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  .form__heading {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .form__label {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .form__container input[type="text"],
+  .input__description {
+    font-size: 14px;
+  }
+
+  .input__description {
+    height: auto;
+  }
+
+  .input__description--count {
+    font-size: 12px;
+  }
+
+  .btn__container {
+    width: 100%;
+  }
+
+  .form__button {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .form__img--upload {
+    width: 100%;
+    height: auto;
+  }
+
+  .dates__container {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .form__date,
+  .input__date {
+    width: 100%;
+  }
+
+  .form-level {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .file-name {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .uploaded {
+    padding: 6px 12px;
+  }
+
+  .form__uploaded--img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .re-upload__container {
+    padding: 4px 12px;
+  }
+
+  .re-upload {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .form__container {
+    padding: 10px;
+  }
+
+  .form__heading {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .form__label {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+
+  .form__container input[type="text"],
+  .input__description {
+    font-size: 13px;
+  }
+
+  .input__description {
+    height: auto;
+  }
+
+  .input__description--count {
+    font-size: 11px;
+  }
+
+  .btn__container {
+    width: 100%;
+  }
+
+  .form__button {
+    width: 100%;
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .form__img--upload {
+    width: 100%;
+    height: auto;
+  }
+
+  .dates__container {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .form__date,
+  .input__date {
+    width: 100%;
+  }
+
+  .form-level {
+    width: 100%;
+    font-size: 11px;
+  }
+
+  .file-name {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .uploaded {
+    padding: 4px 8px;
+  }
+
+  .form__uploaded--img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .re-upload__container {
+    padding: 2px 8px;
+  }
+
+  .re-upload {
+    width: 16px;
+    height: 16px;
+  }
+}

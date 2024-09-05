@@ -1,0 +1,275 @@
+.card-details-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #0D3C61; 
+    height: 60vh;
+    color: white;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-info {
+    margin: 50px 0 auto 80px;
+    padding: 10px;
+}
+
+.card-info h1{
+    font-weight: 600;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.card-info p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    margin: 30px 0 ;
+}
+
+
+
+.start-date {
+    background: #FFCE5C;
+    padding: 5px 10px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 12px;
+    color: #000;
+}
+
+.start-date img{
+    margin:auto 10px auto 0;
+}
+
+.card-info h1 {
+    margin: 10px 0;
+    font-size: 2rem;
+}
+
+.card-info p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+.difficulty {
+    margin-top: 15px;
+}
+
+.level {
+    width: 8vw;
+    height: fit-content;
+    display: inline-block;
+    background: #F8F9FD;
+    padding: 4px 7px;
+    color: #003145;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+}
+
+.level img{
+    margin: auto 0;
+}
+
+.level span{
+margin: auto 0 auto 6px;
+
+}
+
+
+.tab-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0 20px 0 100px;
+}
+
+.tab-button {
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding-bottom: 5px;
+    color: #0D3C61;
+    border-bottom: 3px solid transparent;
+}
+
+.tab-button.active {
+    border-bottom: 3px solid #2ecc71;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.edit-button, .delete-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 7vw;
+}
+
+.edit-button {
+    background: #44924C;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+.delete-button {
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #DC1414;
+    border: 1px solid #DC1414;
+}
+
+.overview-section {
+    width: 80%;
+    margin: 20px auto 20px 85px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+
+.overview-section p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #64607D;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .card-details-container {
+        padding: 10px;
+    }
+
+    .card-header {
+        height: 40vh;
+        padding: 15px;
+    }
+
+    .card-info {
+        margin: 20px 0;
+        padding: 10px;
+    }
+
+    .card-info h1 {
+        font-size: 1.5rem;
+        margin: 10px 0;
+    }
+
+    .card-info p {
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+
+    .start-date {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+
+    .level {
+        width: 30%;
+        font-size: 12px;
+        padding: 3px 5px;
+    }
+
+    .tab-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .tab-button {
+        font-size: 0.9rem;
+    }
+
+    .edit-button, .delete-button {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+        width: auto;
+        margin: 5px 0;
+    }
+
+    .overview-section {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .overview-section p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-header {
+        height: 30vh;
+        padding: 10px;
+    }
+
+    .card-info {
+        margin: 10px 0;
+    }
+
+    .card-info h1 {
+        font-size: 1.2rem;
+    }
+
+    .card-info p {
+        font-size: 0.9rem;
+    }
+
+    .start-date {
+        font-size: 10px;
+        padding: 3px 6px;
+    }
+
+    .level {
+        width: 40%;
+        font-size: 10px;
+        padding: 2px 4px;
+    }
+
+    .tab-nav {
+        flex-direction: column;
+        padding: 0;
+        margin-top: 5px;
+    }
+
+    .tab-button {
+        font-size: 0.8rem;
+    }
+
+    .edit-button, .delete-button {
+        font-size: 0.7rem;
+        padding: 5px 10px;
+        width: auto;
+        margin: 3px 0;
+    }
+
+    .overview-section {
+        width: 95%;
+        margin: 15px auto;
+    }
+
+    .overview-section p {
+        font-size: 14px;
+    }
+}

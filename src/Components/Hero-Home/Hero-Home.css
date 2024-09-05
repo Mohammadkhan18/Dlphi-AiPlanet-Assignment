@@ -1,0 +1,102 @@
+.hero-home__container {
+  display: inline-block;
+  width: 90%;
+  margin: 100px 0 0 10%;
+  color: #ffffff;
+}
+.hero-home__title {
+  width: 643px;
+  height: 112px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  margin-left: 50px;
+}
+
+.hero-home__text {
+  width: 531px;
+  height: 112px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 13px;
+  margin-left: 50px;
+}
+
+.hero-home__button {
+  position: absolute;
+  width: 198px;
+  height: 47px;
+  color: #003145;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 12px 18px;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  border: none;
+  margin-top: 34px;
+  cursor: pointer;
+  z-index: 15;
+  margin-left: 50px;
+  align-items: center;
+}
+
+.hero-rectangle{
+  position: absolute;
+  width: 9.1px;
+  height: 115.91px;
+  background-color: #FFCE5C;
+}
+
+.hero-home__img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  right: 180.11px;
+  top: calc(50% - 340px / 2);
+  background: url(../../Assets/PicsArt_04-14-04.42\ 1.svg);
+  background-size: cover;
+  background-position: center;
+  z-index: 10;
+}
+
+@media (max-width: 780px) {
+  .hero-home__container {
+    width: 100%;
+    margin: 40px 0 0 0;
+    text-align: center;
+  }
+
+  .hero-home__title {
+    margin-left: 20px;
+    width: fit-content;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .hero-home__text {
+    padding: 0 10px;
+    margin-left: 10px;
+    width: fit-content;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .hero-home__button {
+    padding: 5px 18px;
+    width: 40%;
+    height: 30px;
+    font-size: 10px;
+    margin-left: -100px;
+  }
+
+  .hero-home__img {
+    visibility: hidden;
+    width: 150px;
+    height: 150px;
+    right: 0;
+    top: calc(50% - 150px / 2);
+  }
+}

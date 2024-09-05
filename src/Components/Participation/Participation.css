@@ -1,0 +1,125 @@
+.ai-challenges-section {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.section-title {
+    width: 80%;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 32px;
+    color: #2a2a2a;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.section-title span{
+    color: #0FA958;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(2,  1fr) !important;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    align-items: start;
+}
+
+.cards {
+    width: 100%;
+    max-width: 542px;
+    height: 276px;
+    background: #F8F9FD;
+    padding: 40px 30px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.card-icon {
+    width: 43px;
+    height: 43px;
+    margin-bottom: 20px;
+    color: #0FA958;
+}
+
+.cards h3 {
+font-size: 24px;
+font-weight: 600;
+line-height: 50px;
+letter-spacing: -0.03em;
+text-align: left;
+
+}
+
+.cards p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    
+}
+
+
+@media (max-width: 1024px) {
+    .section-title {
+        width: 90%;
+        font-size: 28px;
+    }
+
+    .cards-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cards {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .cards-container {
+        grid-template-columns: 1fr;
+    }
+
+    .cards {
+        max-width: 100%;
+    }
+
+    .cards h3 {
+        font-size: 1.25rem;
+    }
+
+    .cards p {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 1.25rem;
+        margin: 30px auto;
+    }
+
+    .cards-container {
+        width: 95%;
+    }
+
+    .cards {
+        padding: 20px 15px;
+        margin: 10px auto;
+    }
+
+    .cards h3 {
+        font-size: 1rem;
+    }
+
+    .cards p {
+        font-size: 0.75rem;
+    }
+}
+

@@ -1,0 +1,375 @@
+.explore-section{
+    padding: 50px 20px;
+    background-color:#002A3B;
+    color: #fff;
+}
+.challenges-section {
+    padding: 50px 20px;
+    background: #003145;
+    color: #fff;
+}
+
+.explore-section-title {
+    background: #002A3B;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.search-filter-container {
+    background: #002A3B;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    width: 60%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: auto 30px auto 0;
+}
+
+
+.filter-button {
+    height: 50px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.true{
+    width: 160px;
+    padding: 10px 10px;
+}
+
+.filter-remove-icon{
+width: 17px;
+height: 17px;
+margin-left: 20px;
+}
+
+.selected-filters{
+    margin: -40px auto 0 170px;
+    padding: 20px;
+    color: #444444;
+    gap: 10px;
+display: flex;
+flex-direction: row;
+}
+
+.display-filters{
+    text-align: center;
+    background: #F8F9FD7D;
+    color: #fff;
+    border-radius: 30px;
+font-weight: 500;
+font-size: 14px;
+padding: 10px 15px;
+}
+
+.filter-button img{
+    width: 14px ;
+    height: 14px;
+    margin: auto 4px auto 8px;
+}
+
+.explore-cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+    justify-items: center;
+}
+
+.explore-cards {
+    text-decoration: none;
+    background-color: #fff;
+    width: 100%;
+    max-width: 354px;
+    height: 473px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.explore-cards-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.status {
+    display: block;
+    width: 40%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.status.upcoming {
+    margin:0 auto 10px auto;
+    background: #F2C94C40;
+    color: #000;
+}
+
+.status.active {
+    color: #44924C;
+    background-color:#44924C3D;
+    margin:0 auto 10px auto;
+}
+
+.status.past {
+    color: #000;
+    background-color: #FF3C002B;
+    margin:0 auto 10px auto;
+}
+
+.explore-cards h3 {
+    color: #000;
+font-size: 16px;
+font-weight: 600;
+line-height: 26px;
+text-align: center;
+}
+
+.explore-cards p{
+color: #000;
+    font-size: 16px;
+font-weight: 600;
+line-height: 26px;
+text-align: center;
+
+}
+
+.explore-cards span{
+    color: #000;
+    font-size: 12px;
+font-weight: 600;
+line-height: 26px;
+text-align: center;
+}
+
+.countdown-container {
+    color: #444444;
+    text-align: center;
+  }
+  
+  .state {
+    font-size: 14px;
+    display: block;
+  }
+  
+  .time-left {
+    color: #454545;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 15px;
+  }
+  
+  .time-labels {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+  }
+  
+  .time-labels span {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .blur-background {
+    filter: blur(5px);
+    transition: filter 0.3s ease;
+}
+  
+
+.filter-container .dropdown-menu {
+    min-width: 250px; /* Adjust as needed */
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+
+
+.participate-button {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    background-color: #44924C;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.participate-button img{
+    width: 18px;
+    height: 18px;
+    margin: 0 10px;
+}
+
+.participate-button:hover {
+    background-color: #2ea547;
+}
+
+@media (max-width: 768px) {
+    .explore-section,
+    .challenges-section {
+        padding: 30px 15px;
+    }
+
+    .explore-section-title {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .search-filter-container {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .search-bar {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .filter-button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .selected-filters {
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .display-filters {
+        font-size: 12px;
+        margin: 5px;
+    }
+
+    .explore-cards-container {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .explore-cards {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .card-image {
+        height: 150px;
+    }
+
+    .explore-cards-content {
+        padding: 15px;
+    }
+
+    .status {
+        width: auto;
+        padding: 5px 8px;
+        font-size: 0.7rem;
+    }
+
+    .time-labels {
+        width: 100%;
+        font-size: 8px;
+    }
+
+    .participate-button {
+        width: 90%;
+        padding: 8px;
+    }
+
+    .participate-button img {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .explore-cards-container {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+    .explore-section-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .search-bar {
+        font-size: 0.9rem;
+    }
+
+    .filter-button {
+        font-size: 16px;
+    }
+
+    .selected-filters {
+        margin: 0;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .display-filters {
+        font-size: 10px;
+        padding: 8px;
+    }
+
+    .explore-cards-container {
+        grid-template-columns: 1fr;
+    }
+
+    .card-image {
+        height: 120px;
+    }
+
+    .explore-cards-content {
+        padding: 10px;
+    }
+
+    .status {
+        font-size: 0.6rem;
+    }
+
+    .time-labels {
+        font-size: 6px;
+    }
+
+    .participate-button {
+        width: 100%;
+        padding: 6px;
+    }
+
+    .participate-button img {
+        width: 14px;
+        height: 14px;
+    }
+}
